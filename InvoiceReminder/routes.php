@@ -24,4 +24,4 @@ Route::post('/invoicereminder/send-reminder', function(Request $request) {
 
 Route::get('/invoicereminder/remind', function() {
     return view('InvoiceReminder::remind');
-})->name('InvoiceReminder.remind');
+})->middleware(['permission:ADMINISTRATOR'])->name('InvoiceReminder.remind');
