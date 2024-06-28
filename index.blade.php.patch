@@ -1,0 +1,5 @@
+# /{paymenter}/themes/default/views/admin/invoices/index.blade.php
+14a15,17
+>             <a href="{{ route('InvoiceReminder.remind') }}" class="px-4 py-2 font-bold text-white transition rounded delay-400 button button-primary mr-2">
+>                 <i class="ri-alarm-warning-line mt-2"></i> {{ __('Remind') }}
+>             </a>
