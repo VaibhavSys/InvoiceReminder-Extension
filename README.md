@@ -16,7 +16,7 @@ Remind Fail:
 </details>
 
 ## Getting Started
-1. Install the extension
+1. Install the extension (No need to enable)
 1. Run `curl -o - https://raw.githubusercontent.com/VaibhavSys/InvoiceReminder-Extension/master/setup.sh | bash` in root paymenter directory (usually `/var/www/paymenter`). Run as root if you get a permission error.
 1. Done!
 
